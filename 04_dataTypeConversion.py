@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
 
-source=cv2.imread('data\data/images/sample.jpg')
+source=cv2.imread('data/images/sample.jpg')
 
-scalingFactor=1/255.0
+ScalingFactor=1/255.0
 
 #0~255로 되어있는 이미지를 0~1사이의 실수로 정규화
 
-source=source*scalingFactor
+source=source*ScalingFactor
 
 print(source)
 
@@ -26,8 +26,15 @@ print(source)
 #2 source.astype('unit8')
 
 #print(np.unit(source))
-print(source.astype('unit8'))
+print(source.astype('uint8'))
 
-source=source.astype('unit8')
-
+source=source.astype('uint8')
+print("source 프린트")
 print(source)
+
+
+
+
+
+print("scalingFactor 프린트")
+print(ScalingFactor)

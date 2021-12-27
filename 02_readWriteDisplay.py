@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img_file='data/images/sammple.jpg'
+img_file='data/images/sample.jpg'
 
 # opencv로 이미지 열기
 image=cv2.imread(img_file,cv2.IMREAD_COLOR)
@@ -28,5 +28,5 @@ cv2.imshow('gray scale', gray_image)
 #따라서 우리 눈으로 확인하기 위해서는
 
 #cpu의 코드실행을 잠시 멈추게 해야한다
-cv2.waitkey(0)
+cv2.waitKey(0)
 cv2.destroyAllWindows()

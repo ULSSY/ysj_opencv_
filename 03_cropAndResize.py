@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #cv2.IMREAD_COLOR랑 1은 같은 의미 입니다.
-source = cv2.imread('data/images/samlie.jpg',1)
+source = cv2.imread('data/images/sample.jpg',1)
 
 print(cv2.IMREAD_COLOR)
 
