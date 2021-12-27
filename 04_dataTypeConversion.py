@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-source=cv2.imread('data/images/sample.jpg')
+source=cv2.imread('data\data/images/sample.jpg')
 
 scalingFactor=1/255.0
 
